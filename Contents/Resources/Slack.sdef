@@ -23,6 +23,13 @@
 
     <command name="clear status" code="SLAKCLST" description="Clear your status">
     </command>
+	
+    <command name="set dnd" code="SLAKSDND" description="Set do not disturb">
+      <direct-parameter type="text" description="Time"/>
+    </command>
+
+    <command name="clear dnd" code="SLAKCDND" description="Clear do not disturb">
+    </command>
 
     <command name="focus main window" code="SLAKMNWN" description="Switch to main window">
     </command>
